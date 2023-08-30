@@ -1,0 +1,121 @@
+.container1{
+    width: 100%;
+    height: 220px;
+    position: relative; 
+    margin-top: 80px;
+}.container2{
+    width: 100%;
+    height: 220px;
+    /* position: relative; */
+
+}.container3{
+    width: 100%;
+    height: 220px;
+    /* position: relative; */
+    
+}.div1{
+    width: 150px;
+    height: 150px;
+    background-color: antiquewhite;
+    position: absolute; 
+    animation-name: change1;
+    animation-duration: 1.5s;
+}@keyframes change1{
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 1330px;
+    
+    }
+}
+.div2{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    margin-left: auto;
+    animation-name: change2;
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+    animation-direction: reverse;
+
+}@keyframes change2{
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 1330px;
+    
+    }
+}
+.div3{
+    width: 150px;
+    height: 150px;
+    background-color: antiquewhite;
+    position: absolute;
+    animation-name: change3;
+    animation-duration: 2s;
+    animation-delay: 4s;
+}@keyframes change3{
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 1330px;
+    
+    }
+}
+.div4{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    margin-left: auto;
+    animation-name: change4;
+    animation-duration: 2s;
+    animation-delay: 6s;
+    animation-direction: reverse;
+
+}@keyframes change4{
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 1330px;
+    
+    }
+}
+.div5{
+    width: 150px;
+    height: 150px;
+    background-color: antiquewhite;
+    position: absolute;
+    animation-name: change5;
+    animation-duration: 2s;
+    animation-delay: 8s;
+}@keyframes change5{
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 1330px;
+    
+    }
+}
+.div6{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    margin-left: auto;
+    animation-name: change6;
+    animation-duration: 2s;
+    animation-delay: 10s;
+    animation-direction: reverse;
+}@keyframes change6{
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 1330px;
+    
+    }
+}
